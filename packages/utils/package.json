@@ -1,0 +1,20 @@
+{
+  "name": "@yexiyue/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node ../../build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "types": "dist/types/index.d.ts",
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/npmlog": "^4.1.4",
+    "inquirer": "^9.2.7",
+    "npmlog": "^7.0.1"
+  }
+}

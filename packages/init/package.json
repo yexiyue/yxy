@@ -1,0 +1,23 @@
+{
+  "name": "@yexiyue/init",
+  "version": "1.0.0",
+  "description": "init command",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node ../../build.js"
+  },
+  "keywords": [],
+  "author": "yexiyue",
+  "license": "ISC",
+  "type": "module",
+  "types": "dist/types",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@yexiyue/command": "workspace:*",
+    "@yexiyue/utils": "workspace:*",
+    "execa": "^7.1.1",
+    "fs-extra": "^11.1.1",
+    "ora": "^6.3.1",
+    "path-exists": "^5.0.0"
+  }
+}

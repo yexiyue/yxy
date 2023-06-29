@@ -1,0 +1,14 @@
+{
+  "name": "@yexiyue/command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build":"node ../../build.js"
+  },
+  "keywords": [],
+  "author": "yexiyue",
+  "license": "ISC",
+  "type":"module",
+  "types": "./dist/types/index.d.ts"
+}

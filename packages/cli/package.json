@@ -1,0 +1,37 @@
+{
+  "name": "@yexiyue/cli",
+  "version": "1.0.1",
+  "description": "a cli study demo by monorepo",
+  "main": "bin/index.js",
+  "bin": {
+    "yxy": "bin/index.js"
+  },
+  "scripts": {
+    "build": "node ../../build.js src/index.ts dist/index.js",
+    "dev": "pnpm -r run build && node ./bin/index.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "yexiyue666",
+  "license": "ISC",
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "dependencies": {
+    "@types/import-local": "^3.1.0",
+    "@types/npmlog": "^4.1.4",
+    "@types/semver": "^7.5.0",
+    "@yexiyue/init": "workspace:*",
+    "@yexiyue/utils": "workspace:*",
+    "chalk": "^5.2.0",
+    "commander": "^11.0.0",
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1",
+    "semver": "^7.5.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "execa": "^7.1.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "universial-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "yxy",
+    "test":"vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/node": "^20.3.1",
+    "@yexiyue/cli": "workspace:*",
+    "rollup": "^3.25.1",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3",
+    "vitest": "^0.32.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
